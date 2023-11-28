@@ -182,7 +182,7 @@ const bigProjects = { .... }
 
 const achievementSection = { .... }
 
-const blogSection = { .... }
+// const blogSection = { .... }
 
 const contactInfo = { .... }
 

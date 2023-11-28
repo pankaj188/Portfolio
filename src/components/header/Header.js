@@ -7,19 +7,19 @@ import {
   greeting,
   workExperiences,
   skillsSection,
-  openSource,
-  blogSection,
+  // blogSection,
   talkSection,
-  achievementSection
+  achievementSection,
+  openSource
 } from "../../portfolio";
 
 function Header() {
   const {isDark} = useContext(StyleContext);
   const viewExperience = workExperiences.display;
-  const viewOpenSource = openSource.display;
+  const viewpersonalProjects = openSource.display;
   const viewSkills = skillsSection.display;
   const viewAchievement = achievementSection.display;
-  const viewBlog = blogSection.display;
+  // const viewBlog = blogSection.display;
   const viewTalks = talkSection.display;
 
   return (
@@ -49,9 +49,9 @@ function Header() {
               <a href="#experience">Work Experiences</a>
             </li>
           )}
-          {viewOpenSource && (
+          {viewpersonalProjects && (
             <li>
-              <a href="#opensource">Open Source</a>
+              <a href="#openSource">Personal Projects</a>
             </li>
           )}
           {viewAchievement && (
@@ -59,16 +59,16 @@ function Header() {
               <a href="#achievements">Achievements</a>
             </li>
           )}
-          {viewBlog && (
+          {/* {viewBlog && (
             <li>
               <a href="#blogs">Blogs</a>
             </li>
-          )}
-          {viewTalks && (
+          )} */}
+          {/* {viewTalks && (
             <li>
               <a href="#talks">Talks</a>
             </li>
-          )}
+          )} */}
           <li>
             <a href="#contact">Contact Me</a>
           </li>
