@@ -185,7 +185,7 @@ const workExperiences = {
 To know how to get github key look at readme.md */
 
 const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  showGithubProfile: "false", // Set true or false to show Contact profile using Github, defaults to true
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -333,7 +333,7 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "I am Open to Work for Software Engineer, Back End Developer, Full-stack Developer related roles",
+    "Software Engineer with 1+ year of experience in Software Development, Seeking full-time Software Development roles.",
   number: "+91-7667120905",
   email_address: "isapankaj@gmail.com"
 };
